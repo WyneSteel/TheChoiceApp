@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F57B9D0029BF8EC40017CAEF /* Endings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B9CFF29BF8EC40017CAEF /* Endings.swift */; };
 		F5C62AD029B9C4D800FDB80F /* ChoiceBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C62ACF29B9C4D800FDB80F /* ChoiceBrain.swift */; };
 		F5C62AD229B9C4E500FDB80F /* Choices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C62AD129B9C4E500FDB80F /* Choices.swift */; };
+		F5D5678229C1FC5400837FF4 /* EndingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D5678129C1FC5400837FF4 /* EndingViewController.swift */; };
 		F5D949D829B8E38E00AD1DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D949D729B8E38E00AD1DD8 /* AppDelegate.swift */; };
 		F5D949DA29B8E38E00AD1DD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D949D929B8E38E00AD1DD8 /* SceneDelegate.swift */; };
-		F5D949DC29B8E38E00AD1DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D949DB29B8E38E00AD1DD8 /* ViewController.swift */; };
+		F5D949DC29B8E38E00AD1DD8 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D949DB29B8E38E00AD1DD8 /* ChoiceViewController.swift */; };
 		F5D949DF29B8E38E00AD1DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D949DD29B8E38E00AD1DD8 /* Main.storyboard */; };
 		F5D949E129B8E38F00AD1DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D949E029B8E38F00AD1DD8 /* Assets.xcassets */; };
 		F5D949E429B8E38F00AD1DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D949E229B8E38F00AD1DD8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F57B9CFF29BF8EC40017CAEF /* Endings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endings.swift; sourceTree = "<group>"; };
 		F5C62ACF29B9C4D800FDB80F /* ChoiceBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceBrain.swift; sourceTree = "<group>"; };
 		F5C62AD129B9C4E500FDB80F /* Choices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choices.swift; sourceTree = "<group>"; };
+		F5D5678129C1FC5400837FF4 /* EndingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingViewController.swift; sourceTree = "<group>"; };
 		F5D949D429B8E38E00AD1DD8 /* TheChoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheChoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D949D729B8E38E00AD1DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5D949D929B8E38E00AD1DD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5D949DB29B8E38E00AD1DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D949DB29B8E38E00AD1DD8 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		F5D949DE29B8E38E00AD1DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5D949E029B8E38F00AD1DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5D949E329B8E38F00AD1DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +77,8 @@
 		F5D949EB29B8E3DF00AD1DD8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F5D949DB29B8E38E00AD1DD8 /* ViewController.swift */,
+				F5D949DB29B8E38E00AD1DD8 /* ChoiceViewController.swift */,
+				F5D5678129C1FC5400837FF4 /* EndingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F5C62AD129B9C4E500FDB80F /* Choices.swift */,
+				F57B9CFF29BF8EC40017CAEF /* Endings.swift */,
 				F5C62ACF29B9C4D800FDB80F /* ChoiceBrain.swift */,
 			);
 			path = Model;
@@ -176,9 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D949DC29B8E38E00AD1DD8 /* ViewController.swift in Sources */,
+				F5D949DC29B8E38E00AD1DD8 /* ChoiceViewController.swift in Sources */,
 				F5D949D829B8E38E00AD1DD8 /* AppDelegate.swift in Sources */,
+				F57B9D0029BF8EC40017CAEF /* Endings.swift in Sources */,
 				F5D949DA29B8E38E00AD1DD8 /* SceneDelegate.swift in Sources */,
+				F5D5678229C1FC5400837FF4 /* EndingViewController.swift in Sources */,
 				F5C62AD229B9C4E500FDB80F /* Choices.swift in Sources */,
 				F5C62AD029B9C4D800FDB80F /* ChoiceBrain.swift in Sources */,
 			);
